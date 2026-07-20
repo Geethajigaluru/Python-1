@@ -1,4 +1,3 @@
-'''
 #Tuples are ordered, unchangeable and allows duplicate elements.
 tuple=("Cherry","Orange","Grapes")
 print(tuple)
@@ -15,7 +14,6 @@ print(tuples)
 t1=(1,6,4,2,1,8,7,5)
 print(t1.count(1))
 print(t1.index(4))
-'''
 
 #Q1
 Tuple=("Python","Java","C","C++")
