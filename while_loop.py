@@ -1,4 +1,4 @@
-'''is_failed=True
+is_failed=True
 i=1
 while is_failed and i<=100:
     if i%2!=0:
@@ -63,7 +63,7 @@ i=1
 while i<=10:
     print(num,"x",i,"=",num*i)
     i=i+1
-    '''
+
 
 #Q4 Count digits
 number = int(input("Enter a number: "))
@@ -75,7 +75,7 @@ while number > 0:
     number = number // 10
 
 print("Number of digits:", digits)
-'''
+
 #Q5 Guess the secret number
 secret=7
 trails=0
@@ -87,4 +87,3 @@ while True:
         break
     else:
         print("Try again")
-'''
