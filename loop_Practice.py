@@ -93,8 +93,15 @@ for i in numbers:
 print(count)
 
 #Q7
-numbers=[12,45,8,90,23]
+numbers = [12,45,8,90,23]
+
+largest = numbers[0]
+
 for num in numbers:
+    if num > largest:
+        largest = num
+
+print(largest)
     
 #Q8
 numbers=[10,15,22,31,44,57]
