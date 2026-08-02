@@ -1,5 +1,4 @@
 #Function is a reusable block of code that performs specific task.
-'''
 def greet():
     print("Hello, Good morning")
 greet()
@@ -63,11 +62,11 @@ largest(15,8)
 
 #Q9
 def repeat(word):
-    print(word)
+    for i in range(3):
+        print(word)
+
 repeat("Python")
-repeat("Python")
-repeat("Python")
-'''
+
 #Q10
 def table(num):
     for i in range(1,11):
